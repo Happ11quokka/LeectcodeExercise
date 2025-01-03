@@ -15,7 +15,7 @@ from typing import List
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        p1 = 0  # 현재 포인터
+        p1 = 0
         for p2 in range(len(nums)):
             if nums[p2] != val:
                 nums[p1] = nums[p2]
